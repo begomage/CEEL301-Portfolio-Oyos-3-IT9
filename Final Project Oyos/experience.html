@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#c3bda8">
+    <meta
+      name="description"
+      content="A fill-in template for presenting professional experience on the Oyos portfolio."
+    >
+    <title>Experience | Oyos — Graphic Design Portfolio</title>
+    <link rel="canonical" href="https://oyosportfolio.vercel.app/experience">
+    <meta name="keywords" content="Benedict Oyos experience, logo design, graphic design, web development, PRIMEKICKS, SWEET SMILE">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Benedict Oyos Portfolio">
+    <meta property="og:title" content="Experience | Benedict Oyos Portfolio">
+    <meta property="og:description" content="Project experience in logo design and web development by Benedict Oyos.">
+    <meta property="og:url" content="https://oyosportfolio.vercel.app/experience">
+    <meta property="og:image" content="https://oyosportfolio.vercel.app/assets/profile-photo.png">
+    <meta property="og:image:alt" content="Portrait of Lou Benedict E. Oyos">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Experience | Benedict Oyos">
+    <meta name="twitter:description" content="Project experience in logo design and web development by Benedict Oyos.">
+    <meta name="twitter:image" content="https://oyosportfolio.vercel.app/assets/profile-photo.png">
+    <script>
+      try {
+        const theme = window.localStorage.getItem("oyos-theme");
+        if (theme === "light" || theme === "dark") {
+          document.documentElement.dataset.theme = theme;
+        }
+      } catch (error) {
+        console.error("Unable to read the saved theme preference.", error);
+      }
+    </script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <a class="wordmark" href="index.html#home" aria-label="Oyos, home">
+        <img class="wordmark-mark" src="assets/midnight-overture/MidnightOverture%20Icon%20Logo.png" alt="" aria-hidden="true">
+        <span>oyos<span class="wordmark-period">.</span></span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+      >
+        <span class="menu-toggle-label">Menu</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="index.html#home">Home</a>
+        <a href="about.html">About me</a>
+        <a href="skills.html">Skills</a>
+        <a href="experience.html" aria-current="page">Experience</a>
+        <a href="projects.html">Projects</a>
+        <a href="education.html">Education</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false" title="Switch to dark mode">
+        <span class="theme-toggle-icon" aria-hidden="true">☾</span>
+        <span class="theme-toggle-label">Dark mode</span>
+      </button>
+    </header>
+
+    <main id="main">
+      <section class="skills-intro page-wrap" aria-labelledby="experience-title">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> Career journey</p>
+        <h1 id="experience-title">Experience<br><em>&amp; practice.</em></h1>
+        <p class="skills-lede">
+          This section displays a timeline that shows my experience in graphic designing and front-end development.
+        </p>
+      </section>
+
+      <section class="experience-section page-wrap" aria-labelledby="experience-history-title">
+        <div class="about-section-heading">
+          <div>
+            <p class="eyebrow">Professional history</p>
+            <h2 id="experience-history-title">Where I’ve <em>been</em></h2>
+          </div>
+        </div>
+
+        <ol class="experience-timeline" aria-label="Experience timeline">
+          <li class="experience-entry">
+            <article class="experience-card">
+              <p class="experience-date">August 2022 – November 2022</p>
+              <header class="experience-card-heading">
+                <div>
+                  <h3>Logo Designer</h3>
+                  <p class="experience-organization">School entrepreneurship project "SWEET SMILE"</p>
+                </div>
+              </header>
+              <dl class="experience-details">
+                <div>
+                  <dt>Location</dt>
+                  <dd>Laguna, Philippines</dd>
+                </div>
+                <div>
+                  <dt>Type</dt>
+                  <dd>Volunteer</dd>
+                </div>
+              </dl>
+              <p class="experience-summary">Designed the logo used for the "SWEET SMILE" entrepreneurship project.</p>
+              <h4>Key contributions</h4>
+              <ul class="experience-highlights">
+                <li>Logo design</li>
+              </ul>
+            </article>
+          </li>
+
+          <li class="experience-entry">
+            <article class="experience-card">
+              <p class="experience-date">November 2025 – December 2025</p>
+              <header class="experience-card-heading">
+                <div>
+                  <h3>Programmer</h3>
+                  <p class="experience-organization">Web Development project "PRIMEKICKS"</p>
+                </div>
+              </header>
+              <dl class="experience-details">
+                <div>
+                  <dt>Location</dt>
+                  <dd>Laguna, Philippines</dd>
+                </div>
+                <div>
+                  <dt>Type</dt>
+                  <dd>Volunteer</dd>
+                </div>
+              </dl>
+              <p class="experience-summary">One of the programmers involved in the development of the "PRIMEKICKS" web development project.</p>
+              <h4>Key contributions</h4>
+              <ul class="experience-highlights">
+                <li>Front-end development</li>
+                <li>Back-end development</li>
+              </ul>
+            </article>
+          </li>
+        </ol>
+      </section>
+
+      <section class="closing-note page-wrap" aria-label="Portfolio note">
+        <span class="closing-star" aria-hidden="true">✳</span>
+        <p>Good design starts with a good question.</p>
+      </section>
+    </main>
+
+    <a class="back-to-top" href="#" aria-label="Back to top">↑</a>
+
+    <footer class="site-footer">
+      <div class="page-wrap footer-inner">
+        <div class="footer-identity">
+          <p class="footer-name">Benedict Oyos</p>
+          <p class="footer-title">IT Student</p>
+        </div>
+        <div class="footer-contact">
+          <p><span>Email</span> <a href="mailto:oyosloubenedict@gmail.com">oyosloubenedict@gmail.com</a></p>
+          <p><span>Phone</span> <a href="tel:+639616148825">+63 961 614 8825</a></p>
+          <p><span>Location</span> Laguna, Philippines</p>
+          <p><span>GitHub</span> <a href="https://github.com/begomage" target="_blank" rel="noopener noreferrer">github.com/begomage</a></p>
+          <p><span>Instagram</span> <a href="https://www.instagram.com/bego_mage/" target="_blank" rel="noopener noreferrer">instagram.com/bego_mage</a></p>
+        </div>
+        <nav class="footer-nav" aria-label="Quick navigation">
+          <a href="index.html#home">Home</a>
+          <a href="about.html">About me</a>
+          <a href="skills.html">Skills</a>
+          <a href="experience.html" aria-current="page">Experience</a>
+          <a href="projects.html">Projects</a>
+          <a href="education.html">Education</a>
+          <a href="cv.html">CV</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <p class="footer-copyright">© 2026 Benedict Oyos. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

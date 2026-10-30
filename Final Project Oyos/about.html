@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f1e8">
+    <meta
+      name="description"
+      content="About the creator of the Oyos graphic design portfolio."
+    >
+    <title>About Me | Oyos — Graphic Design Portfolio</title>
+    <link rel="canonical" href="https://oyosportfolio.vercel.app/about">
+    <meta name="keywords" content="Benedict Oyos, about, IT student, graphic designer, front-end developer, Laguna Philippines">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Benedict Oyos Portfolio">
+    <meta property="og:title" content="About Benedict Oyos | IT Student &amp; Designer">
+    <meta property="og:description" content="Learn about Benedict Oyos, an IT student in Laguna interested in graphic design, traditional art, and front-end development.">
+    <meta property="og:url" content="https://oyosportfolio.vercel.app/about">
+    <meta property="og:image" content="https://oyosportfolio.vercel.app/assets/profile-photo.png">
+    <meta property="og:image:alt" content="Portrait of Lou Benedict E. Oyos">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="About Benedict Oyos">
+    <meta name="twitter:description" content="Learn about Benedict Oyos, an IT student in Laguna interested in graphic design and front-end development.">
+    <meta name="twitter:image" content="https://oyosportfolio.vercel.app/assets/profile-photo.png">
+    <script>
+      try {
+        const theme = window.localStorage.getItem("oyos-theme");
+        if (theme === "light" || theme === "dark") {
+          document.documentElement.dataset.theme = theme;
+        }
+      } catch (error) {
+        console.error("Unable to read the saved theme preference.", error);
+      }
+    </script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <a class="wordmark" href="index.html#home" aria-label="Oyos, home">
+        <img class="wordmark-mark" src="assets/midnight-overture/MidnightOverture%20Icon%20Logo.png" alt="" aria-hidden="true">
+        <span>oyos<span class="wordmark-period">.</span></span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+      >
+        <span class="menu-toggle-label">Menu</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="index.html#home">Home</a>
+        <a href="about.html" aria-current="page">About me</a>
+        <a href="skills.html">Skills</a>
+        <a href="experience.html">Experience</a>
+        <a href="projects.html">Projects</a>
+        <a href="education.html">Education</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false" title="Switch to dark mode">
+        <span class="theme-toggle-icon" aria-hidden="true">☾</span>
+        <span class="theme-toggle-label">Dark mode</span>
+      </button>
+    </header>
+
+    <main id="main">
+      <section class="about-intro page-wrap" id="about" aria-labelledby="about-title">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> A little about the designer</p>
+        <h1 id="about-title">About <em>me.</em></h1>
+        <p class="about-lede">
+          A brief overview of my background and interests as an Information
+          Technology student, graphic designer, and front-end developer.
+        </p>
+      </section>
+
+      <section class="about-details page-wrap" aria-labelledby="details-title">
+        <div class="about-section-heading">
+          <div>
+            <p class="eyebrow">The essentials</p>
+            <h2 id="details-title">Basic <em>information</em></h2>
+          </div>
+          <p class="about-aside">A quick introduction to who I am and what I do.</p>
+        </div>
+
+        <dl class="about-info-grid">
+          <div class="about-info-item">
+            <dt>Full name</dt>
+            <dd>Lou Benedict E. Oyos</dd>
+          </div>
+          <div class="about-info-item">
+            <dt>Professional title</dt>
+            <dd>Bachelor of Science in Information Technology Student</dd>
+          </div>
+          <div class="about-info-item">
+            <dt>Location</dt>
+            <dd>Laguna, Philippines</dd>
+          </div>
+          <div class="about-info-item">
+            <dt>Email address</dt>
+            <dd>oyosloubenedict@gmail.com</dd>
+          </div>
+          <div class="about-info-item">
+            <dt>Contact number</dt>
+            <dd>+63 961 614 8825</dd>
+          </div>
+          <div class="about-info-item">
+            <dt>Current / previous occupation</dt>
+            <dd>IT student; no prior occupation listed</dd>
+          </div>
+          <div class="about-info-item">
+            <dt>Years of experience</dt>
+            <dd>Student projects; no professional years claimed</dd>
+          </div>
+          <div class="about-info-item">
+            <dt>Areas of specialization</dt>
+            <dd>Graphic design, typography, and front-end development</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="about-bio-band" aria-labelledby="bio-title">
+        <div class="page-wrap about-bio-layout">
+          <div>
+            <p class="eyebrow eyebrow-light">The person behind the work</p>
+            <h2 id="bio-title">Professional <em>biography</em></h2>
+          </div>
+          <div class="about-bio-copy">
+            <p>
+              I'm <strong>Lou Benedict E. Oyos</strong>, an <strong>IT student</strong>
+              based in <strong>Laguna, Philippines</strong> with interests in
+              <strong>graphic design, traditional art, and front-end development</strong>.
+            </p>
+            <p>
+              My project experience includes logo design for <strong>SWEET SMILE</strong>
+              and front-end and back-end development for <strong>PRIMEKICKS</strong>.
+              I'm especially interested in <strong>typography and visual communication</strong>.
+            </p>
+            <p>
+              My professional goal is to <strong>become a skilled graphic designer who can create impactful visual solutions</strong>.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="closing-note page-wrap" aria-label="Portfolio note">
+        <span class="closing-star" aria-hidden="true">✳</span>
+        <p>Good design starts with a good question.</p>
+      </section>
+    </main>
+
+    <a class="back-to-top" href="#" aria-label="Back to top">↑</a>
+
+    <footer class="site-footer">
+      <div class="page-wrap footer-inner">
+        <div class="footer-identity">
+          <p class="footer-name">Benedict Oyos</p>
+          <p class="footer-title">IT Student</p>
+        </div>
+        <div class="footer-contact">
+          <p><span>Email</span> <a href="mailto:oyosloubenedict@gmail.com">oyosloubenedict@gmail.com</a></p>
+          <p><span>Phone</span> <a href="tel:+639616148825">+63 961 614 8825</a></p>
+          <p><span>Location</span> Laguna, Philippines</p>
+          <p><span>GitHub</span> <a href="https://github.com/begomage" target="_blank" rel="noopener noreferrer">github.com/begomage</a></p>
+          <p><span>Instagram</span> <a href="https://www.instagram.com/bego_mage/" target="_blank" rel="noopener noreferrer">instagram.com/bego_mage</a></p>
+        </div>
+        <nav class="footer-nav" aria-label="Quick navigation">
+          <a href="index.html#home">Home</a>
+          <a href="about.html">About me</a>
+          <a href="skills.html">Skills</a>
+          <a href="experience.html">Experience</a>
+          <a href="projects.html">Projects</a>
+          <a href="education.html">Education</a>
+          <a href="cv.html">CV</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <p class="footer-copyright">© 2026 Benedict Oyos. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
