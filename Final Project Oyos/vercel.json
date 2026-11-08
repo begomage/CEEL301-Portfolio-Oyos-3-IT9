@@ -1,0 +1,66 @@
+{
+  "redirects": [
+    { "source": "/index.html", "destination": "/", "permanent": true },
+    { "source": "/about.html", "destination": "/about", "permanent": true },
+    { "source": "/skills.html", "destination": "/skills", "permanent": true },
+    { "source": "/experience.html", "destination": "/experience", "permanent": true },
+    { "source": "/projects.html", "destination": "/projects", "permanent": true },
+    { "source": "/education.html", "destination": "/education", "permanent": true },
+    { "source": "/cv.html", "destination": "/cv", "permanent": true },
+    { "source": "/contact.html", "destination": "/contact", "permanent": true },
+    {
+      "source": "/projects/midnight-overture/index.html",
+      "destination": "/projects/midnight-overture",
+      "permanent": true
+    },
+    {
+      "source": "/projects/brew-haven/index.html",
+      "destination": "/projects/brew-haven",
+      "permanent": true
+    },
+    {
+      "source": "/projects/typography/index.html",
+      "destination": "/projects/typography",
+      "permanent": true
+    },
+    {
+      "source": "/projects/strawberry-study/index.html",
+      "destination": "/projects/strawberry-study",
+      "permanent": true
+    },
+    {
+      "source": "/projects/portfolio-wireframe/index.html",
+      "destination": "/projects/portfolio-wireframe",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    { "source": "/about", "destination": "/about.html" },
+    { "source": "/skills", "destination": "/skills.html" },
+    { "source": "/experience", "destination": "/experience.html" },
+    { "source": "/projects", "destination": "/projects.html" },
+    { "source": "/education", "destination": "/education.html" },
+    { "source": "/cv", "destination": "/cv.html" },
+    { "source": "/contact", "destination": "/contact.html" },
+    {
+      "source": "/projects/midnight-overture",
+      "destination": "/projects/midnight-overture/index.html"
+    },
+    {
+      "source": "/projects/brew-haven",
+      "destination": "/projects/brew-haven/index.html"
+    },
+    {
+      "source": "/projects/typography",
+      "destination": "/projects/typography/index.html"
+    },
+    {
+      "source": "/projects/strawberry-study",
+      "destination": "/projects/strawberry-study/index.html"
+    },
+    {
+      "source": "/projects/portfolio-wireframe",
+      "destination": "/projects/portfolio-wireframe/index.html"
+    }
+  ]
+}
